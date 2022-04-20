@@ -250,6 +250,10 @@ img {
   top: -9%;
 }
 
+.magButton:hover{
+  background-color: rgb(30, 53, 203);
+}
+
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
