@@ -63,6 +63,20 @@ input[type="submit"]:hover {
   color: white;
   background-color: #843066;
 }
+#my-form-status {
+  width: 45%;
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: black;
+  font-size: 20px;
+}
+
+#my-form-status.success {
+  background-color: #30e23f;
+  animation: status 4s ease forwards;
+}
 
 /*===== Margenes =====*/
 :root {
