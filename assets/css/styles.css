@@ -27,6 +27,43 @@
   }
 }
 
+
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  outline-color: blue;
+}
+
+input[type="submit"] {
+  
+  background-color: #592246;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background-color 650ms;
+}
+
+input[type="submit"]:hover {
+  color: white;
+  background-color: #843066;
+}
+
 /*===== Margenes =====*/
 :root {
   --mb-1: 0.5rem;
@@ -376,6 +413,7 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  
 }
 
 /* ===== FOOTER =====*/
