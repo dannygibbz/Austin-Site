@@ -8,7 +8,7 @@
 
 /*===== Colors =====*/
 :root {
-  --first-color: #592246;
+  --first-color: #007bc7;
   --second-color: #0e2431;
 }
 
@@ -50,8 +50,7 @@ textarea {
 }
 
 input[type="submit"] {
-  
-  background-color: #592246;
+  background-color: #007bc7;
   color: white;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
@@ -61,7 +60,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   color: white;
-  background-color: #843066;
+  background-color: blue;
 }
 #my-form-status {
   width: 70%;
@@ -316,24 +315,23 @@ img {
   top: -9%;
 }
 
-.magButton:hover{
-  background-color: rgb(30, 53, 203);
+.magButton:hover {
+  background-color: blue;
 }
 
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+.iframe-container iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-
 
 /* ===== ABOUT =====*/
 .about__container {
@@ -442,7 +440,6 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-  
 }
 
 /* ===== FOOTER =====*/
@@ -559,7 +556,6 @@ img {
   }
   #my-form-status {
     width: 25%;
-   
   }
 }
 
